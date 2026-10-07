@@ -1,0 +1,15 @@
+{
+  "name": "xss-lab",
+  "version": "1.0.0",
+  "description": "Deliberately vulnerable Node.js app for teaching XSS: reflected, stored, and blind (via a Contact Us form -> admin panel). Lab use only.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=16" },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "license": "MIT",
+  "private": true
+}
